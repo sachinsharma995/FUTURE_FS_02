@@ -1,0 +1,33 @@
+{
+  "name": "sachin",
+  "version": "2.3.0",
+  "private": false,
+  "description": "An E-commerce solution",
+  "bugs": {
+    "url": "https://github.com/sachinsharma995"
+  },
+  "author": "(EJ) Sachin Sharma <sharmasachin705063@gmail.com>",
+  "contributors": [
+    "Sachin Sharma <sharmasachin705063@gmail.com>"
+  ],
+  "keywords": [
+    "Sachin",
+    "e-commerce solution",
+    "e-commerce",
+    "fashion",
+    "online retail",
+    "retail",
+    "Vue.js",
+    "Node.js",
+    "Mongo",
+    "Redis"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sachinsharma995"
+  },
+  "scripts": {
+    "start-all": "concurrently \"npm start --prefix management-server\" \"npm start --prefix shopping-server\" \"npm start --prefix shopping-webclient\" \"npm start --prefix management-webclient\""
+  }
+}
